@@ -1,3 +1,4 @@
+using Code.Authoring.Components;
 using Unity.Entities;
 using UnityEngine;
 
@@ -17,6 +18,8 @@ namespace Code.Authoring
                     CannonBallPrefab = GetEntity(authoring.CannonBallPrefab),
                     CannonBallSpawn = GetEntity(authoring.CannonBallSpawn)
                 });
+                
+                AddComponent<Shooting>();
             }
         }
     }

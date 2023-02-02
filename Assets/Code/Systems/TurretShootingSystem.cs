@@ -1,4 +1,5 @@
 using Code.Aspects;
+using Code.Authoring.Components;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Transforms;
@@ -42,6 +43,7 @@ namespace Code.Systems
     }
 }
 
+[WithAll(typeof(Shooting))]
 [BurstCompile]
 partial struct TurretShoot : IJobEntity
 {

@@ -1,4 +1,4 @@
-using Code.Authoring.Components;
+using Code.Components;
 using Unity.Burst;
 using Unity.Collections.LowLevel.Unsafe;
 using Unity.Entities;

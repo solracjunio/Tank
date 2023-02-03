@@ -1,5 +1,5 @@
 using Code.Aspects;
-using Code.Authoring.Components;
+using Code.Components;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Transforms;

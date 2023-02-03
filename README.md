@@ -1,3 +1,4 @@
-# Basic Entitites URP Template project
+# Learn ECS/DOTS Unity with tank project
 
-An empty project configured to use Entities and URP. Copy this project to use it as a template.
+### Preview:
+![preview](https://github.com/solracjunio/Tank/blob/master/Previw.gif)
